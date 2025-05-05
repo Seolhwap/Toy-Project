@@ -55,8 +55,7 @@ def admin_input():
         message = input()
         if message.strip():
             broadcast(f"관리자: {message}".encode('utf-8'))
-            print(f"관리자(나): {message}")  # 서버 콘솔에도 출력
+            print(f"관리자(나): {message}") 
 
-# 서버 수신 및 관리자 입력 스레드 시작
 threading.Thread(target=receive).start()
 threading.Thread(target=admin_input).start()
