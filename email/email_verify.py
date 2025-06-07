@@ -6,7 +6,7 @@ verification_codes = {}
 
 def send_verify_code(email):
     EMAIL_ADDRESS = "znzsndj@gmail.com"
-    EMAIL_PASSWORD = ("wvzy zyek nvrp cfbr")
+    EMAIL_PASSWORD = ("")
     VERIFY_CODE = randint(1111, 9999)
 
     msg = EmailMessage()
