@@ -3,7 +3,8 @@ from email.message import EmailMessage
 from random import randint
 
 EMAIL_ADDRESS = "znzsndj@gmail.com"
-EMAIL_PASSWORD = ("wvzy zyek nvrp cfbr")
+EMAIL_PASSWORD = ("
+")
 
 TARGET_EMAIL = input("이메일을 입력하세요: ")
 VERIFY_CODE = randint(1111, 9999)
